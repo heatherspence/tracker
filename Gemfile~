@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 
 # tracker
 
-gem 'compass-rails'
+gem 'compass-rails', '~> 2.0.alpha.0'
 gem 'figaro'
 gem 'trackerific'
 gem 'high_voltage'
@@ -52,5 +52,4 @@ group :development do
 	gem 'quiet_assets'
 	gem 'rails_layout'
 end
-
 
